@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AI Text Summarizer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .updated {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 2, 2026</p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> AI Text Summarizer does not collect, store, or share your personal data. All your settings and history are stored locally on your device.
+    </div>
+
+    <h2>What data is stored?</h2>
+    <p>The extension stores the following data <strong>locally on your device</strong> using Chrome's storage API:</p>
+    <ul>
+        <li><strong>API Key</strong> - Your OpenAI or Anthropic API key (required for the extension to work)</li>
+        <li><strong>Settings</strong> - Your preferences (selected AI provider, model, language, custom prompts)</li>
+        <li><strong>Summary History</strong> - Past summaries you've generated (optional, can be cleared anytime)</li>
+    </ul>
+    <p>This data never leaves your device except when making API calls to your chosen AI provider.</p>
+
+    <h2>What data is sent to third parties?</h2>
+    <p>When you request a summary, the following is sent <strong>directly to your chosen AI provider</strong> (OpenAI or Anthropic):</p>
+    <ul>
+        <li>The text you want to summarize (selected text or page content)</li>
+        <li>Your API key (for authentication)</li>
+    </ul>
+    <p>The extension communicates directly with:</p>
+    <ul>
+        <li><strong>OpenAI API</strong> (api.openai.com) - if you choose OpenAI as your provider</li>
+        <li><strong>Anthropic API</strong> (api.anthropic.com) - if you choose Anthropic as your provider</li>
+    </ul>
+    <p>Please refer to <a href="https://openai.com/privacy" target="_blank">OpenAI's Privacy Policy</a> or <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a> for information on how they handle your data.</p>
+
+    <h2>What data do we collect?</h2>
+    <p><strong>None.</strong> We do not:</p>
+    <ul>
+        <li>Collect any personal information</li>
+        <li>Track your browsing activity</li>
+        <li>Use analytics or tracking tools</li>
+        <li>Send data to our servers (we don't have any servers)</li>
+        <li>Share or sell any data to third parties</li>
+        <li>Use your data for advertising or marketing purposes</li>
+        <li>Use your data for credit determination or lending purposes</li>
+    </ul>
+
+    <h2>Data security</h2>
+    <p>Your API key and all settings are stored locally in Chrome's secure storage. The extension only accesses web page content when you explicitly request a summary.</p>
+
+    <h2>Your control</h2>
+    <p>You have full control over your data:</p>
+    <ul>
+        <li>Clear your summary history anytime from the extension settings</li>
+        <li>Remove your API key anytime</li>
+        <li>Uninstall the extension to remove all stored data</li>
+    </ul>
+
+    <h2>Permissions explained</h2>
+    <ul>
+        <li><strong>activeTab</strong> - Access current tab content only when you click the extension</li>
+        <li><strong>storage</strong> - Save your settings and history locally</li>
+        <li><strong>scripting</strong> - Extract text from pages for summarization</li>
+        <li><strong>contextMenus</strong> - Add "Summarize" option to right-click menu</li>
+        <li><strong>Host permissions (api.openai.com, api.anthropic.com)</strong> - Required to send text to AI providers for summarization</li>
+    </ul>
+
+    <h2>Remote code</h2>
+    <p>This extension does not use any remote code. All JavaScript is bundled within the extension package. No external scripts are loaded, and no code is executed via eval() or similar functions.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we make changes to this privacy policy, we will update the "Last updated" date above.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please open an issue on our <a href="https://github.com/cezarysanecki/ai-text-summarizer" target="_blank">GitHub repository</a>.</p>
+</body>
+</html>
