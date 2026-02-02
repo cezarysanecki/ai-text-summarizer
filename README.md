@@ -101,7 +101,7 @@ Browse and export your past summaries.
 - No tracking, no analytics, no data collection
 - We don't have servers — there's nowhere for your data to go
 
-Read our full [Privacy Policy](privacy-policy.html).
+Read our full [Privacy Policy](https://cezarysanecki.github.io/ai-text-summarizer/).
 
 ---
 
