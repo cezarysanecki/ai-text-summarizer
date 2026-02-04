@@ -114,7 +114,7 @@ Read our full [Privacy Policy](https://cezarysanecki.github.io/ai-text-summarize
 
 ## Installation
 
-1. Install from [Chrome Web Store](#) *(link coming soon)*
+1. Install from [Chrome Web Store]([#](https://chromewebstore.google.com/detail/ai-text-summarizer/emacbbeoilhpdncfadkjmkpgikpmkegj))
 2. Click the extension icon
 3. Go to Settings and enter your API key
 4. Start summarizing!
